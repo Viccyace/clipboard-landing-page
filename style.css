@@ -30,6 +30,7 @@ body {
   padding: 0em 0em 1em 0em;
   color: hsl(210, 10%, 33%);
 }
+
 .desktop-container p {
   padding: 0em 0em 2em 0em;
   width: 34em;
@@ -173,6 +174,7 @@ p {
   line-height: 1.6;
   color: hsl(201, 11%, 66%);
 }
+
 .clipboard button {
   margin-right: 1em;
   margin-top: 2em;
@@ -220,6 +222,12 @@ p {
 /*Start of new section to copy*/
 
 @media (max-width: 675px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+
   .desktop-container h1 {
     font-size: 2rem;
     text-align: center;
