@@ -1,0 +1,338 @@
+* {
+  padding: 0em;
+  margin: 0em;
+  border: 0em;
+  scroll-behavior: smooth;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+body {
+  background-image: url(/images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  max-height: 100vh;
+}
+
+.desktop-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.desktop-container img {
+  max-width: 5em;
+  margin-top: 3em;
+  padding: 2em;
+}
+
+.desktop-container h1 {
+  padding: 0em 0em 1em 0em;
+  color: hsl(210, 10%, 33%);
+}
+.desktop-container p {
+  padding: 0em 0em 2em 0em;
+  width: 34em;
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+}
+
+.desktop-container button {
+  margin-right: 1em;
+  padding: 1em 3em 1em;
+  border-radius: 2em;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-ios {
+  background-color: hsl(171, 66%, 44%);
+  color: whitesmoke;
+  box-shadow: 0.1em 0.5em 1em hsla(171, 66%, 44%, 0.2);
+}
+
+.btn-mac {
+  background-color: hsl(233, 100%, 69%);
+  color: whitesmoke;
+  box-shadow: 0.1em 0.5em 1em hsl(233, 100%, 69%, 0.2);
+}
+
+.keep-track {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 7em;
+}
+
+.keep-track h2 {
+  color: hsl(210, 10%, 33%);
+  padding-bottom: 1em;
+  font-size: 1.5em;
+}
+
+.keep-track p {
+  width: 39em;
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.6;
+}
+
+.image-computer {
+  display: flex;
+  margin-top: 4em;
+  gap: 6em;
+}
+
+.image-computer-text {
+  padding-top: 4em;
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+}
+
+.image-computer img {
+  margin-left: -3em;
+}
+
+.image-computer .image-computer-text h2 {
+  padding-bottom: 0.5em;
+  color: hsl(210, 10%, 33%);
+  font-size: 1em;
+}
+
+.image-computer .image-computer-text p {
+  line-height: 1.6;
+  font-size: 0.9rem;
+  color: hsl(201, 11%, 66%);
+  text-align: justify;
+}
+
+.workflow-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+  gap: 2em;
+}
+
+.workflow-icon img {
+  max-width: 2em;
+  padding: 2em;
+}
+
+.icon-blacklist,
+.icon-text,
+.icon-preview,
+h2 {
+  font-size: 1rem;
+  padding-bottom: 1em;
+  color: hsl(210, 10%, 33%);
+  font-size: 1.5em;
+}
+
+.icon-blacklist,
+.icon-text,
+.icon-preview,
+p {
+  font-size: 0.9rem;
+  width: 22em;
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+}
+
+.sponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.5em;
+  margin-top: 6em;
+}
+
+.sponsors img {
+  max-width: 9em;
+}
+
+.clipboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6em;
+}
+
+.clipboard h2 {
+  color: hsl(210, 10%, 33%);
+  padding-bottom: 1em;
+  font-size: 1.5em;
+  color: hsl(210, 10%, 33%);
+}
+
+.clipboard p {
+  width: 39em;
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.6;
+  color: hsl(201, 11%, 66%);
+}
+.clipboard button {
+  margin-right: 1em;
+  margin-top: 2em;
+  padding: 1em 3em 1em;
+  border-radius: 2em;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: hsl(204, 9%, 89%);
+  height: 8em;
+  margin-top: 9em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer img {
+  max-width: 3em;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  width: 30em;
+  gap: 1em;
+}
+
+.footer-nav p {
+  display: inline;
+}
+
+.footer-nav-top p,
+.footer-nav-bottom p {
+  margin-left: 5em;
+  font-weight: 600;
+}
+
+.footer-icon img {
+  max-width: 1.3em;
+  padding: 0.5em;
+}
+
+/*Start of new section to copy*/
+
+@media (max-width: 675px) {
+  .desktop-container h1 {
+    font-size: 2rem;
+    text-align: center;
+    width: 10em;
+  }
+
+  .desktop-container p {
+    width: 19.375em;
+    text-align: center;
+  }
+
+  .desktop-container button {
+    display: block;
+    margin-bottom: 1.5em;
+    padding: 1em 5em 1em;
+  }
+
+  .keep-track h2 {
+    width: 10em;
+    text-align: center;
+  }
+
+  .keep-track p {
+    width: 19em;
+    font-size: 0.9rem;
+  }
+
+  .image-computer {
+    flex-direction: column;
+    margin-left: 5.5em;
+  }
+
+  .image-computer img {
+    max-width: 20em;
+  }
+
+  .image-computer-text {
+    align-items: center;
+    margin-top: -5em;
+    text-align: center;
+    margin-right: 5em;
+  }
+
+  .image-computer .image-computer-text p {
+    text-align: center;
+    width: 18.5em;
+  }
+
+  .image-computer .image-computer-text h2 {
+    font-size: 1.4rem;
+  }
+
+  .keep-track img {
+    max-width: 20em;
+    margin: 3em 0em 4em 0em;
+  }
+
+  .workflow-icon {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-blacklist,
+  .icon-text,
+  .icon-preview,
+  p {
+    width: 15em;
+    font-size: 0.95;
+  }
+
+  .sponsors {
+    flex-direction: column;
+  }
+
+  .clipboard h2 {
+    width: 12em;
+    text-align: center;
+  }
+
+  .clipboard p {
+    width: 17em;
+    font-size: 0.9rem;
+  }
+
+  .clipboard button {
+    margin-left: 6em;
+    padding: 1em 5em 1em;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: 25em;
+    align-items: center;
+  }
+
+  .footer-nav-top,
+  .footer-nav-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    margin-right: -6em;
+  }
+
+  .footer-nav-top p,
+  .footer-nav-bottom p {
+    font-size: 1.2em;
+  }
+
+  .footer img {
+    max-width: 4em;
+    padding-top: 1em;
+  }
+}
+
+/*end of new section to copy*/
